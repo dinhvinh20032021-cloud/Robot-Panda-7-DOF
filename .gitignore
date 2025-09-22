@@ -1,0 +1,16 @@
+# Catkin build artifacts
+build/
+devel/
+logs/
+
+# OS and editor
+*.swp
+*~
+.vscode/
+.idea/
+
+# CMake và build
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
