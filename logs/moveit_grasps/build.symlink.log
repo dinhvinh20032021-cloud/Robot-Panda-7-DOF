@@ -1,0 +1,10 @@
+Symlinking /home/vinh/ws_moveit/devel/lib/libmoveit_grasps.so
+Symlinking /home/vinh/ws_moveit/devel/lib/libmoveit_grasps_filter.so
+Symlinking /home/vinh/ws_moveit/devel/lib/moveit_grasps/moveit_grasps_suction_grasp_pipeline_demo
+Symlinking /home/vinh/ws_moveit/devel/lib/moveit_grasps/moveit_grasps_grasp_filter_demo
+Symlinking /home/vinh/ws_moveit/devel/lib/moveit_grasps/moveit_grasps_grasp_pipeline_demo
+Symlinking /home/vinh/ws_moveit/devel/lib/moveit_grasps/moveit_grasps_grasp_poses_visualizer_demo
+Symlinking /home/vinh/ws_moveit/devel/lib/moveit_grasps/moveit_grasps_grasp_generator_demo
+Symlinking /home/vinh/ws_moveit/devel/lib/pkgconfig/moveit_grasps.pc
+Symlinking /home/vinh/ws_moveit/devel/share/moveit_grasps/cmake/moveit_graspsConfig.cmake
+Symlinking /home/vinh/ws_moveit/devel/share/moveit_grasps/cmake/moveit_graspsConfig-version.cmake

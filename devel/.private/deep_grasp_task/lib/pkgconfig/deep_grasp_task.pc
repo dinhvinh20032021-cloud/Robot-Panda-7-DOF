@@ -1,0 +1,8 @@
+prefix=/home/vinh/ws_moveit/devel/.private/deep_grasp_task
+
+Name: deep_grasp_task
+Description: Description of deep_grasp_task
+Version: 0.0.1
+Cflags: -I/home/vinh/ws_moveit/src/deep_grasp_demo/deep_grasp_task/include
+Libs: -L${prefix}/lib 
+Requires: moveit_task_constructor_msgs roscpp

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/vinh/ws_moveit/devel/.private/deep_grasp_task/setup.sh

@@ -1,0 +1,84 @@
+[35m[1mScanning dependencies of target moveit_grasps[0m
+[  3%] [32mBuilding CXX object CMakeFiles/moveit_grasps.dir/src/grasp_candidate.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/moveit_grasps.dir/src/grasp_data.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/moveit_grasps.dir/src/grasp_generator.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_grasps.dir/src/grasp_scorer.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/moveit_grasps.dir/src/suction_grasp_candidate.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/moveit_grasps.dir/src/suction_grasp_data.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/moveit_grasps.dir/src/suction_grasp_generator.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/moveit_grasps.dir/src/suction_grasp_scorer.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_grasps.dir/src/two_finger_grasp_data.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/moveit_grasps.dir/src/two_finger_grasp_generator.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/moveit_grasps.dir/src/two_finger_grasp_scorer.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library /home/vinh/ws_moveit/devel/.private/moveit_grasps/lib/libmoveit_grasps.so[0m
+[ 44%] Built target moveit_grasps
+[35m[1mScanning dependencies of target moveit_grasps_filter[0m
+[35m[1mScanning dependencies of target moveit_grasps_grasp_poses_visualizer_demo[0m
+[35m[1mScanning dependencies of target moveit_grasps_grasp_generator_demo[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/moveit_grasps_grasp_poses_visualizer_demo.dir/src/demo/grasp_poses_visualizer_demo.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/moveit_grasps_grasp_generator_demo.dir/src/demo/grasp_generator_demo.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/moveit_grasps_filter.dir/src/grasp_filter.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/moveit_grasps_filter.dir/src/two_finger_grasp_filter.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/moveit_grasps_filter.dir/src/suction_grasp_filter.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/moveit_grasps_filter.dir/src/grasp_planner.cpp.o[0m
+[01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:[m[K In member function ‘[01m[Kbool moveit_grasps::GraspPlanner::computeCartesianWaypointPath(moveit_grasps::GraspCandidatePtr&, const PlanningSceneConstPtr&, const RobotStatePtr&, const vector_Isometry3d&, const string&)[m[K’:
+[01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:311:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic double moveit::core::CartesianInterpolator::computeCartesianPath(moveit::core::RobotState*, const moveit::core::JointModelGroup*, std::vector<std::shared_ptr<moveit::core::RobotState> >&, const moveit::core::LinkModel*, const Isometry3d&, bool, const moveit::core::MaxEEFStep&, const moveit::core::JumpThreshold&, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const Isometry3d&)[m[K’ is deprecated: Replace JumpThreshold with CartesianPrecision [[01;35m[K-Wdeprecated-declarations[m[K]
+  311 |         kinematics::KinematicsQueryOptions()[01;35m[K)[m[K;
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:42[m[K:
+[01m[K/opt/ros/noetic/include/moveit/robot_state/cartesian_interpolator.h:239:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  239 |   [01;36m[KcomputeCartesianPath[m[K(RobotState* start_state, const JointModelGroup* group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:311:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic double moveit::core::CartesianInterpolator::computeCartesianPath(moveit::core::RobotState*, const moveit::core::JointModelGroup*, std::vector<std::shared_ptr<moveit::core::RobotState> >&, const moveit::core::LinkModel*, const Isometry3d&, bool, const moveit::core::MaxEEFStep&, const moveit::core::JumpThreshold&, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const Isometry3d&)[m[K’ is deprecated: Replace JumpThreshold with CartesianPrecision [[01;35m[K-Wdeprecated-declarations[m[K]
+  311 |         kinematics::KinematicsQueryOptions()[01;35m[K)[m[K;
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:42[m[K:
+[01m[K/opt/ros/noetic/include/moveit/robot_state/cartesian_interpolator.h:239:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  239 |   [01;36m[KcomputeCartesianPath[m[K(RobotState* start_state, const JointModelGroup* group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:361:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic double moveit::core::CartesianInterpolator::computeCartesianPath(moveit::core::RobotState*, const moveit::core::JointModelGroup*, std::vector<std::shared_ptr<moveit::core::RobotState> >&, const moveit::core::LinkModel*, const Isometry3d&, bool, const moveit::core::MaxEEFStep&, const moveit::core::JumpThreshold&, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const Isometry3d&)[m[K’ is deprecated: Replace JumpThreshold with CartesianPrecision [[01;35m[K-Wdeprecated-declarations[m[K]
+  361 |         kinematics::KinematicsQueryOptions()[01;35m[K)[m[K;
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:42[m[K:
+[01m[K/opt/ros/noetic/include/moveit/robot_state/cartesian_interpolator.h:239:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  239 |   [01;36m[KcomputeCartesianPath[m[K(RobotState* start_state, const JointModelGroup* group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:361:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic double moveit::core::CartesianInterpolator::computeCartesianPath(moveit::core::RobotState*, const moveit::core::JointModelGroup*, std::vector<std::shared_ptr<moveit::core::RobotState> >&, const moveit::core::LinkModel*, const Isometry3d&, bool, const moveit::core::MaxEEFStep&, const moveit::core::JumpThreshold&, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const Isometry3d&)[m[K’ is deprecated: Replace JumpThreshold with CartesianPrecision [[01;35m[K-Wdeprecated-declarations[m[K]
+  361 |         kinematics::KinematicsQueryOptions()[01;35m[K)[m[K;
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:42[m[K:
+[01m[K/opt/ros/noetic/include/moveit/robot_state/cartesian_interpolator.h:239:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  239 |   [01;36m[KcomputeCartesianPath[m[K(RobotState* start_state, const JointModelGroup* group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:367:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic double moveit::core::CartesianInterpolator::computeCartesianPath(moveit::core::RobotState*, const moveit::core::JointModelGroup*, std::vector<std::shared_ptr<moveit::core::RobotState> >&, const moveit::core::LinkModel*, const Isometry3d&, bool, const moveit::core::MaxEEFStep&, const moveit::core::JumpThreshold&, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const Isometry3d&)[m[K’ is deprecated: Replace JumpThreshold with CartesianPrecision [[01;35m[K-Wdeprecated-declarations[m[K]
+  367 |         kinematics::KinematicsQueryOptions()[01;35m[K)[m[K;
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:42[m[K:
+[01m[K/opt/ros/noetic/include/moveit/robot_state/cartesian_interpolator.h:239:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  239 |   [01;36m[KcomputeCartesianPath[m[K(RobotState* start_state, const JointModelGroup* group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:367:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatic double moveit::core::CartesianInterpolator::computeCartesianPath(moveit::core::RobotState*, const moveit::core::JointModelGroup*, std::vector<std::shared_ptr<moveit::core::RobotState> >&, const moveit::core::LinkModel*, const Isometry3d&, bool, const moveit::core::MaxEEFStep&, const moveit::core::JumpThreshold&, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const Isometry3d&)[m[K’ is deprecated: Replace JumpThreshold with CartesianPrecision [[01;35m[K-Wdeprecated-declarations[m[K]
+  367 |         kinematics::KinematicsQueryOptions()[01;35m[K)[m[K;
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/home/vinh/ws_moveit/src/moveit_grasps/src/grasp_planner.cpp:42[m[K:
+[01m[K/opt/ros/noetic/include/moveit/robot_state/cartesian_interpolator.h:239:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  239 |   [01;36m[KcomputeCartesianPath[m[K(RobotState* start_state, const JointModelGroup* group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 70%] [32m[1mLinking CXX executable /home/vinh/ws_moveit/devel/.private/moveit_grasps/lib/moveit_grasps/moveit_grasps_grasp_generator_demo[0m
+[ 74%] [32m[1mLinking CXX executable /home/vinh/ws_moveit/devel/.private/moveit_grasps/lib/moveit_grasps/moveit_grasps_grasp_poses_visualizer_demo[0m
+[ 74%] Built target moveit_grasps_grasp_generator_demo
+[ 74%] Built target moveit_grasps_grasp_poses_visualizer_demo
+[ 77%] [32m[1mLinking CXX shared library /home/vinh/ws_moveit/devel/.private/moveit_grasps/lib/libmoveit_grasps_filter.so[0m
+[ 77%] Built target moveit_grasps_filter
+[35m[1mScanning dependencies of target moveit_grasps_grasp_filter_demo[0m
+[35m[1mScanning dependencies of target moveit_grasps_grasp_pipeline_demo[0m
+[35m[1mScanning dependencies of target moveit_grasps_suction_grasp_pipeline_demo[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/moveit_grasps_suction_grasp_pipeline_demo.dir/src/demo/suction_grasp_pipeline_demo.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/moveit_grasps_grasp_pipeline_demo.dir/src/demo/grasp_pipeline_demo.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/moveit_grasps_grasp_filter_demo.dir/src/demo/grasp_filter_demo.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable /home/vinh/ws_moveit/devel/.private/moveit_grasps/lib/moveit_grasps/moveit_grasps_grasp_filter_demo[0m
+[ 92%] Built target moveit_grasps_grasp_filter_demo
+[ 96%] [32m[1mLinking CXX executable /home/vinh/ws_moveit/devel/.private/moveit_grasps/lib/moveit_grasps/moveit_grasps_suction_grasp_pipeline_demo[0m
+[100%] [32m[1mLinking CXX executable /home/vinh/ws_moveit/devel/.private/moveit_grasps/lib/moveit_grasps/moveit_grasps_grasp_pipeline_demo[0m
+[100%] Built target moveit_grasps_suction_grasp_pipeline_demo
+[100%] Built target moveit_grasps_grasp_pipeline_demo

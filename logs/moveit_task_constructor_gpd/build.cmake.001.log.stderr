@@ -1,0 +1,7 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[31m[1mCMake Error[0m at /home/vinh/ws_moveit/src/deep_grasp_demo/moveit_task_constructor_gpd/CMakeLists.txt:34 (message):
+  Library GPD not found
+
+

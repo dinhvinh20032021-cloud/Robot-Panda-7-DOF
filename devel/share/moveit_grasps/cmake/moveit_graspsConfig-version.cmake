@@ -1,0 +1,1 @@
+/home/vinh/ws_moveit/devel/.private/moveit_grasps/share/moveit_grasps/cmake/moveit_graspsConfig-version.cmake

@@ -1,0 +1,3 @@
+Symlinking /home/vinh/ws_moveit/devel/lib/pkgconfig/franka_description.pc
+Symlinking /home/vinh/ws_moveit/devel/share/franka_description/cmake/franka_descriptionConfig.cmake
+Symlinking /home/vinh/ws_moveit/devel/share/franka_description/cmake/franka_descriptionConfig-version.cmake
