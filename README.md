@@ -51,7 +51,7 @@ std::vector<moveit_msgs::CollisionObject> collision_objects;
 collision_objects.resize(3);
 
 Add the first table where the cube will originally be kept.
-```bash
+ ```bash
 collision_objects[0].id = "table1";
 collision_objects[0].header.frame_id = "panda_link0";
 /* Define the primitive and its dimensions. */
