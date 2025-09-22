@@ -46,8 +46,7 @@ moveit_msgs/GripperTranslation post_grasp_retreat Direction and distance to move
 
 moveit_msgs/GripperTranslation post_place_retreat Direction and distance after placing the object.
 
-## Tài liệu tham khảo
-- [Pick and Place Tutorial - MoveIt](https://moveit.github.io/moveit_tutorials/doc/pick_place/pick_place_tutorial.html)
+
 
 
 
