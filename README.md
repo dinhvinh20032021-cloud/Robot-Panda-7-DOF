@@ -5,6 +5,7 @@
 In MoveIt, grasping is done using the MoveGroup interface. To grasp an object you must build a `moveit_msgs::Grasp` message defining all poses and postures involved in the grasp.
 
 Watch this video to see the output of this tutorial:
+[![Watch the video](https://img.youtube.com/vi/QBJPxx_63Bs/0.jpg)](https://youtu.be/QBJPxx_63Bs?si=rAOBOgCP4Iy57UAo)
 https://youtu.be/QBJPxx_63Bs?si=rAOBOgCP4Iy57UAo
 
 ---
