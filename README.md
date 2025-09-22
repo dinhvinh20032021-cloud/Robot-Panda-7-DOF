@@ -54,7 +54,6 @@ Add the first table where the cube will originally be kept.
 ```bash
 collision_objects[0].id = "table1";
 collision_objects[0].header.frame_id = "panda_link0";
-
 /* Define the primitive and its dimensions. */
 collision_objects[0].primitives.resize(1);
 collision_objects[0].primitives[0].type = collision_objects[0].primitives[0].BOX;
@@ -62,7 +61,6 @@ collision_objects[0].primitives[0].dimensions.resize(3);
 collision_objects[0].primitives[0].dimensions[0] = 0.2;
 collision_objects[0].primitives[0].dimensions[1] = 0.4;
 collision_objects[0].primitives[0].dimensions[2] = 0.4;
-
 /* Define the pose of the table. */
 collision_objects[0].primitive_poses.resize(1);
 collision_objects[0].primitive_poses[0].position.x = 0.5;
@@ -74,7 +72,6 @@ Add the second table where we will be placing the cube.
 ```bash
 collision_objects[1].id = "table2";
 collision_objects[1].header.frame_id = "panda_link0";
-
 /* Define the primitive and its dimensions. */
 collision_objects[1].primitives.resize(1);
 collision_objects[1].primitives[0].type = collision_objects[1].primitives[0].BOX;
@@ -82,7 +79,6 @@ collision_objects[1].primitives[0].dimensions.resize(3);
 collision_objects[1].primitives[0].dimensions[0] = 0.4;
 collision_objects[1].primitives[0].dimensions[1] = 0.2;
 collision_objects[1].primitives[0].dimensions[2] = 0.4;
-
 /* Define the pose of the table. */
 collision_objects[1].primitive_poses.resize(1);
 collision_objects[1].primitive_poses[0].position.x = 0;
@@ -94,7 +90,6 @@ Define the object that we will be manipulating.
 ```bash
 collision_objects[2].header.frame_id = "panda_link0";
 collision_objects[2].id = "object";
-
 /* Define the primitive and its dimensions. */
 collision_objects[2].primitives.resize(1);
 collision_objects[2].primitives[0].type = collision_objects[2].primitives[0].BOX;
@@ -102,7 +97,6 @@ collision_objects[2].primitives[0].dimensions.resize(3);
 collision_objects[2].primitives[0].dimensions[0] = 0.02;
 collision_objects[2].primitives[0].dimensions[1] = 0.02;
 collision_objects[2].primitives[0].dimensions[2] = 0.2;
-
 /* Define the pose of the object. */
 collision_objects[2].primitive_poses.resize(1);
 collision_objects[2].primitive_poses[0].position.x = 0.5;
@@ -155,7 +149,6 @@ openGripper function
 posture.joint_names.resize(2);
 posture.joint_names[0] = "panda_finger_joint1";
 posture.joint_names[1] = "panda_finger_joint2";
-
 /* Set them as open, wide enough for the object to fit. */
 posture.points.resize(1);
 posture.points[0].positions.resize(2);
@@ -173,7 +166,6 @@ closedGripper function
 posture.joint_names.resize(2);
 posture.joint_names[0] = "panda_finger_joint1";
 posture.joint_names[1] = "panda_finger_joint2";
-
 /* Set them as closed. */
 posture.points.resize(1);
 posture.points[0].positions.resize(2);
@@ -203,7 +195,6 @@ place_location[0].place_pose.header.frame_id = "panda_link0";
 tf2::Quaternion orientation;
 orientation.setRPY(0, 0, tau / 4);  // A quarter turn about the z-axis
 place_location[0].place_pose.pose.orientation = tf2::toMsg(orientation);
-
 /* For place location, we set the value to the exact location of the center of the object. */
 place_location[0].place_pose.pose.position.x = 0;
 place_location[0].place_pose.pose.position.y = 0.5;
