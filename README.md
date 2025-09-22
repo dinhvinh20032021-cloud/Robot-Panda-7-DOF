@@ -24,6 +24,7 @@ https://moveit.github.io/moveit_tutorials/doc/getting_started/getting_started.ht
    ```bash
    roslaunch panda_moveit_config demo.launch
 3. In the second terminal, run the pick and place tutorial:
+   ```bash
    rosrun moveit_tutorials pick_place_tutorial
    
 Understanding moveit_msgs::Grasp
