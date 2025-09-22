@@ -46,5 +46,7 @@ moveit_msgs/GripperTranslation post_place_retreat Direction and distance after p
 
 Creating the Environment
 Create a vector of three collision objects:
+```bash
 std::vector<moveit_msgs::CollisionObject> collision_objects;
 collision_objects.resize(3);
+
