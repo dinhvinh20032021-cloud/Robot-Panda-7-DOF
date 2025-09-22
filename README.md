@@ -68,6 +68,7 @@ collision_objects[0].primitive_poses[0].position.y = 0;
 collision_objects[0].primitive_poses[0].position.z = 0.2;
 collision_objects[0].primitive_poses[0].orientation.w = 1.0;
 
+
 Add the second table where we will be placing the cube.
 ```bash
 collision_objects[1].id = "table2";
